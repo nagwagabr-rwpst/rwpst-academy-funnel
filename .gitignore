@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+_frames/
+_research_extract.txt
+_font.css
+*.log
+output/
+.playwright-cli/
