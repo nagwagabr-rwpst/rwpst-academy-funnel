@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Prompting Like a Pro | RWPST AI Academy</title>
-  <meta name="description" content="استخدم الذكاء الاصطناعي باحتراف مع كورس Prompting Like a Pro من RWPST AI Academy. تعلّم بناء البرومبت، إضافة السياق، ومراجعة الناتج وتحسينه. الشراء من صفحة المنتج.">
+  <meta name="description" content="استخدم الذكاء الاصطناعي باحتراف مع كورس Prompting Like a Pro من RWPST AI Academy. مسار عملي في Prompt Engineering مع دراسات حالة وأدوات مساعدة. التسجيل عبر واتساب.">
   <meta name="theme-color" content="#071525">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ar_EG">
   <meta property="og:site_name" content="RWPST AI Academy">
   <meta property="og:title" content="Prompting Like a Pro | RWPST AI Academy">
-  <meta property="og:description" content="مقدمة منظمة في Prompt Engineering: برومبت أوضح، سياق أنسب، ومراجعة لمخرجات الذكاء الاصطناعي. الشراء من صفحة المنتج.">
+  <meta property="og:description" content="مسار عملي في Prompt Engineering: برومبت أوضح، سياق أنسب، ومراجعة لمخرجات الذكاء الاصطناعي. التسجيل عبر واتساب.">
   <!-- Absolute social image for the planned host. Confirm the live URL before launch. -->
   <meta property="og:image" content="https://learn.rwpst.com/assets/images/og-cover.jpg">
   <meta property="og:image:alt" content="رسم لمسار كورس Prompt Engineering في RWPST AI Academy">
@@ -20,6 +20,9 @@
   <meta name="twitter:image" content="https://learn.rwpst.com/assets/images/og-cover.jpg">
   <link rel="icon" href="assets/images/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;800&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
@@ -35,8 +38,9 @@
         <a href="#problem">الفكرة</a>
         <a href="#curriculum">المحتوى</a>
         <a href="#resources">الموارد</a>
+        <a href="#pricing">السعر</a>
         <a href="#faq">الأسئلة</a>
-        <a class="btn btn-primary nav-cta" data-checkout href="https://edu-rwpst-web1.odoo.com/shop/prompting-like-a-pro-4">اشترك في الكورس</a>
+        <a class="btn btn-primary nav-cta" data-enroll="pricing" data-fallback="#enroll" href="#enroll">اشترك في الكورس</a>
       </nav>
     </div>
   </header>
@@ -48,15 +52,18 @@
           <p class="eyebrow">RWPST AI Academy</p>
           <p class="course-name"><span class="en" lang="en" dir="ltr">Prompting Like a Pro</span></p>
           <h1>استخدم الذكاء الاصطناعي باحتراف، مش بالتجربة العشوائية</h1>
-          <p class="lead">اتعلم تبني برومبت أوضح، وتضيف السياق المناسب، وتراجع مخرجات الذكاء الاصطناعي، وتحسّن النتيجة بشكل منظم.</p>
-          <p class="section-note">الكورس لمن يريد مقدمة منظمة في <span class="en" lang="en" dir="ltr">Prompt Engineering</span>، ولمن يستخدم أدوات الذكاء الاصطناعي ويحتاج طريقة أوضح لصياغة الطلب ومراجعة الناتج.</p>
+          <p class="lead">اتعلم تبني برومبت أوضح، وتضيف السياق المناسب، وتراجع مخرجات الذكاء الاصطناعي، وتحسن النتائج بشكل منظم.</p>
+          <p class="section-note">الكورس مش مجرد مقدمة في <span class="en" lang="en" dir="ltr">Prompt Engineering</span>. ده مسار عملي يجمع بين التعلم، ودراسات الحالة، والتطبيقات، والأدوات المساعدة.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" data-checkout href="https://edu-rwpst-web1.odoo.com/shop/prompting-like-a-pro-4">اشترك في الكورس</a>
-            <a class="btn btn-secondary" href="#curriculum">محتويات الكورس</a>
+            <a class="btn btn-primary" data-enroll="hero" data-fallback="#enroll" href="#enroll">اشترك في الكورس</a>
+            <a class="btn btn-secondary" href="#curriculum">استكشف محتويات الكورس</a>
           </div>
           <div class="price-row">
-            <p class="price"><span data-price>599 ج.م</span></p>
-            <p class="fine">السعر الظاهر حاليًا في صفحة المنتج. عند الدفع، صفحة الشراء هي المرجع، ولا نعرض هنا خصمًا.</p>
+            <p class="price-was">السعر المعتاد <s data-price="regular">999 ج.م</s></p>
+            <p class="price-now"><span data-price="launch">799 ج.م</span> <small>سعر الإطلاق</small></p>
+            <p class="price-save">توفّر <span data-price="savings">200 ج.م</span></p>
+            <p class="fine">لم يُحدد موعد لانتهاء سعر الإطلاق.</p>
+            <p class="fine enroll-pending" data-enroll-pending>التسجيل عبر واتساب. رابط واتساب غير مفعّل على هذه الصفحة إلى أن يُضاف رقم واتساب الأعمال.</p>
           </div>
         </div>
         <div>
@@ -75,7 +82,7 @@
           <span>من بناء البرومبت إلى المراجعة والاستخدام المسؤول</span>
         </li>
         <li>
-          <strong><span class="en" lang="en" dir="ltr">Persona و Context</span></strong>
+          <strong><span class="en" lang="en" dir="ltr">Persona</span> و <span class="en" lang="en" dir="ltr">Context</span></strong>
           <span>مكتبات مرفقة مع أدلة وعروض للوحدات</span>
         </li>
         <li>
@@ -85,7 +92,57 @@
       </ul>
     </section>
 
-    <section class="section section-alt" id="problem">
+    <section class="section section-alt" id="value">
+      <div class="wrap">
+        <h2>مش مجرد كورس فيديوهات!</h2>
+        <p class="section-intro">منظومة تعليمية تجمع بين المعرفة والأدوات والتطبيق.</p>
+        <figure class="figure figure-feature">
+          <img src="assets/images/academy-course-overview.jpg" width="1672" height="941" alt="لمحة بصرية لمسار Prompting Like a Pro في RWPST AI Academy، مع محاور التعلم والموارد المرافقة." loading="lazy" decoding="async">
+          <figcaption class="figcaption">لمحة عن المسار. عناوين الدروس المعتمدة موجودة في قسم المحتوى.</figcaption>
+        </figure>
+        <div class="cards value-grid">
+          <article class="card value-card">
+            <p class="module-index"><span class="en" lang="en" dir="ltr">01</span></p>
+            <h3>محتوى تعليمي متكامل</h3>
+            <ul class="plain-list">
+              <li>وحدات تعليمية مرتبة.</li>
+              <li>فيديوهات الكورس الحالية.</li>
+              <li>تدرج من الأساسيات إلى التطبيقات المتقدمة.</li>
+            </ul>
+          </article>
+          <article class="card value-card">
+            <p class="module-index"><span class="en" lang="en" dir="ltr">02</span></p>
+            <h3>دراسات حالة من الواقع</h3>
+            <ul class="plain-list">
+              <li>حالات عملية داخل مسار التعلم.</li>
+              <li>استخدامات واقعية للذكاء الاصطناعي.</li>
+              <li>أمثلة توضّح كيف تُطبَّق المفاهيم.</li>
+            </ul>
+          </article>
+          <article class="card value-card">
+            <p class="module-index"><span class="en" lang="en" dir="ltr">03</span></p>
+            <h3>تطبيقات عملية ودليل</h3>
+            <ul class="plain-list">
+              <li>شروحات عملية خطوة بخطوة.</li>
+              <li>دليل تعليمي موثّق مع الكورس المشترى.</li>
+              <li>مرجع عملي يمكن الرجوع إليه أثناء التطبيق.</li>
+            </ul>
+          </article>
+          <article class="card value-card">
+            <p class="module-index"><span class="en" lang="en" dir="ltr">04</span></p>
+            <h3><span class="en" lang="en" dir="ltr">RWPST Context Library</span></h3>
+            <ul class="plain-list">
+              <li><span class="en" lang="en" dir="ltr">79 AI Prompt Shortcuts</span>.</li>
+              <li>10 تصنيفات منظمة.</li>
+              <li>موارد برومبت عملية للاستخدام المنظم.</li>
+            </ul>
+            <a class="text-link" href="#resources">تفاصيل المكتبة في الموارد</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="problem">
       <div class="wrap">
         <h2>الطلب العام غير البرومبت الواضح</h2>
         <p class="section-intro">الفرق ليس في طول الجملة. الفرق في وضوح المهمة، والمعلومات التي تساعد النموذج على فهم المطلوب، والحدود التي تمنع الإجابة من الانحراف.</p>
@@ -113,21 +170,21 @@
       </div>
     </section>
 
-    <section class="section" id="curriculum">
+    <section class="section section-alt" id="curriculum">
       <div class="wrap">
         <h2>ماذا ستتعلم؟</h2>
         <p class="section-intro">الكورس مقسّم إلى 4 وحدات. عناوين الدروس التالية مأخوذة من ملفات الفيديو الحالية، ومعها وصف قصير بالعربية ليسهل تصفحها.</p>
-        <figure class="figure">
-          <img src="assets/images/course-map.jpg" width="1100" height="619" alt="رسم لمسار الكورس: بناء البرومبت، السياق والقيود، تحسين جودة المخرجات، والنص مع الصور" loading="lazy">
-          <figcaption class="figcaption">خريطة بصرية لمحاور الكورس. النص المهم موجود في الصفحة نفسها، والصورة للتوضيح.</figcaption>
-        </figure>
         <div class="cards modules">
           <article class="module-card">
-            <p class="module-index">الوحدة 1</p>
-            <h3><span class="en" lang="en" dir="ltr">Prompt Engineering Fundamentals</span></h3>
-            <p class="module-sub"><span class="en" lang="en" dir="ltr">From Basic to Professional Prompts</span></p>
-            <p>من الطلب العام إلى برومبت أوضح: بناء التعليمات على خطوات، والاستعانة بالذكاء الاصطناعي في الصياغة، مع مثال عملي.</p>
-            <ol class="lessons">
+            <div class="module-visual">
+              <img src="assets/images/module-01-fundamentals.jpg?v=20261022d" width="1152" height="864" alt="Illustration of Goal, Context, Constraints, and Output combining into a well-structured prompt, with the same four parts linked in a notebook." loading="lazy" decoding="async">
+            </div>
+            <div class="module-body">
+              <p class="module-index"><span class="en" lang="en" dir="ltr">Unit 01</span></p>
+              <h3><span class="en" lang="en" dir="ltr">Prompt Engineering Fundamentals</span></h3>
+              <p class="module-sub"><span class="en" lang="en" dir="ltr">From Basic to Professional Prompts</span></p>
+              <p>من الطلب العام إلى برومبت أوضح: بناء التعليمات على خطوات، والاستعانة بالذكاء الاصطناعي في الصياغة، مع مثال عملي.</p>
+              <ol class="lessons">
               <li>
                 <span class="en" lang="en" dir="ltr">From Generic to Professional Prompt</span>
                 <span class="lesson-ar">من البرومبت العام إلى برومبت أوضح</span>
@@ -144,15 +201,20 @@
                 <span class="en" lang="en" dir="ltr">Practical Prompt Building Demo</span>
                 <span class="lesson-ar">تطبيق عملي لبناء البرومبت</span>
               </li>
-            </ol>
+              </ol>
+            </div>
           </article>
 
           <article class="module-card">
-            <p class="module-index">الوحدة 2</p>
-            <h3><span class="en" lang="en" dir="ltr">The Art of Prompt Refinement</span></h3>
-            <p class="module-sub"><span class="en" lang="en" dir="ltr">From Basic Prompts to Better AI Results</span></p>
-            <p>تحسين البرومبت بعد رؤية النتيجة: التكرار، والسياق، والقيود، مع تطبيق عملي. مواد الوحدة تشمل دليل مكتبة <span class="en" lang="en" dir="ltr">Persona</span>.</p>
-            <ol class="lessons">
+            <div class="module-visual">
+              <img src="assets/images/module-02-refinement.jpg?v=20261022d" width="1152" height="864" alt="Illustration of a prompt being improved through Goal, Context, Constraints, and Output, with questions and a checklist for a clear, specific, professional prompt." loading="lazy" decoding="async">
+            </div>
+            <div class="module-body">
+              <p class="module-index"><span class="en" lang="en" dir="ltr">Unit 02</span></p>
+              <h3><span class="en" lang="en" dir="ltr">The Art of Prompt Refinement</span></h3>
+              <p class="module-sub"><span class="en" lang="en" dir="ltr">From Basic Prompts to Better AI Results</span></p>
+              <p>تحسين البرومبت بعد رؤية النتيجة: التكرار، والسياق، والقيود، مع تطبيق عملي. مواد الوحدة تشمل دليل مكتبة <span class="en" lang="en" dir="ltr">Persona</span>.</p>
+              <ol class="lessons">
               <li>
                 <span class="en" lang="en" dir="ltr">Iterative Prompting</span>
                 <span class="lesson-ar">تحسين البرومبت بالتكرار</span>
@@ -165,15 +227,20 @@
                 <span class="en" lang="en" dir="ltr">Practical Prompt Improvement</span>
                 <span class="lesson-ar">تحسين عملي للبرومبت</span>
               </li>
-            </ol>
+              </ol>
+            </div>
           </article>
 
           <article class="module-card">
-            <p class="module-index">الوحدة 3</p>
-            <h3><span class="en" lang="en" dir="ltr">Improving AI Output Quality</span></h3>
-            <p class="module-sub">تحسين جودة مخرجات الذكاء الاصطناعي</p>
-            <p>التعامل مع المخرج كمسودة تُراجع: فهم الهلوسة، وتقسيم المهمة عبر <span class="en" lang="en" dir="ltr">Prompt Chaining</span>، ثم استخدام القيود والسياق لتقليل الإجابات غير المدعومة.</p>
-            <ol class="lessons">
+            <div class="module-visual">
+              <img src="assets/images/module-03-output-quality.jpg?v=20261022d" width="1152" height="864" alt="Illustration of a rough idea turned into a professional prompt, then an AI response marked with verification checks." loading="lazy" decoding="async">
+            </div>
+            <div class="module-body">
+              <p class="module-index"><span class="en" lang="en" dir="ltr">Unit 03</span></p>
+              <h3><span class="en" lang="en" dir="ltr">Improving AI Output Quality</span></h3>
+              <p class="module-sub">تحسين جودة مخرجات الذكاء الاصطناعي</p>
+              <p>التعامل مع المخرج كمسودة تُراجع: فهم الهلوسة، وتقسيم المهمة عبر <span class="en" lang="en" dir="ltr">Prompt Chaining</span>، ثم استخدام القيود والسياق لتقليل الإجابات غير المدعومة.</p>
+              <ol class="lessons">
               <li>
                 <span class="en" lang="en" dir="ltr">Understanding AI Hallucinations &amp; Prompt Chaining</span>
                 <span class="lesson-ar">فهم الهلوسة وربط البرومبتات</span>
@@ -186,15 +253,20 @@
                 <span class="en" lang="en" dir="ltr">Three Practical Ways to Reduce AI Hallucinations</span>
                 <span class="lesson-ar">ثلاث طرق عملية لتقليل الهلوسة</span>
               </li>
-            </ol>
+              </ol>
+            </div>
           </article>
 
           <article class="module-card">
-            <p class="module-index">الوحدة 4</p>
-            <h3><span class="en" lang="en" dir="ltr">Advanced Prompting</span></h3>
-            <p class="module-sub"><span class="en" lang="en" dir="ltr">Visual, Multimodal &amp; Responsible AI</span></p>
-            <p>الانتقال من النص إلى الصور والمدخلات المتعددة، ثم مراجعة الناتج مع الانتباه إلى الخصوصية والتحقق والحكم البشري.</p>
-            <ol class="lessons">
+            <div class="module-visual">
+              <img src="assets/images/module-04-multimodal.jpg?v=20261022d" width="1152" height="864" alt="Illustration of Goal, Context, Constraints, and Output combining into an effective prompt." loading="lazy" decoding="async">
+            </div>
+            <div class="module-body">
+              <p class="module-index"><span class="en" lang="en" dir="ltr">Unit 04</span></p>
+              <h3><span class="en" lang="en" dir="ltr">Advanced Prompting</span></h3>
+              <p class="module-sub"><span class="en" lang="en" dir="ltr">Visual, Multimodal &amp; Responsible AI</span></p>
+              <p>الانتقال من النص إلى الصور والمدخلات المتعددة، ثم مراجعة الناتج مع الانتباه إلى الخصوصية والتحقق والحكم البشري.</p>
+              <ol class="lessons">
               <li>
                 <span class="en" lang="en" dir="ltr">Create Images with Gen AI</span>
                 <span class="lesson-ar">إنشاء الصور بالذكاء الاصطناعي التوليدي</span>
@@ -211,40 +283,94 @@
                 <span class="en" lang="en" dir="ltr">Privacy, Verification and Human Judgment</span>
                 <span class="lesson-ar">الخصوصية، والتحقق، والحكم البشري</span>
               </li>
-            </ol>
+              </ol>
+            </div>
           </article>
         </div>
         <div class="hero-actions">
-          <a class="btn btn-primary" data-checkout href="https://edu-rwpst-web1.odoo.com/shop/prompting-like-a-pro-4">اشترك في الكورس</a>
+          <a class="btn btn-primary" data-enroll="pricing" data-fallback="#enroll" href="#enroll">اشترك في الكورس</a>
         </div>
       </div>
     </section>
 
-    <section class="section section-alt" id="resources">
+    <section class="section" id="resources">
       <div class="wrap">
+        <p class="section-kicker"><span class="en" lang="en" dir="ltr">What You Get Inside the Course</span></p>
         <h2>ما الذي يأتي مع الكورس؟</h2>
         <p class="section-intro">هذه الموارد موجودة في ملفات الكورس أو مذكورة في صفحة المنتج الحالية. تسليمها مع طلب الشراء لم يُختبر من هذه الصفحة.</p>
+        <figure class="figure figure-feature">
+          <img src="assets/images/context-library-79-shortcuts.jpg" width="1672" height="941" alt="معاينة مكتبة السياق: فهرس ٧٩ اختصارًا للبرومبت موزعة على عشرة تصنيفات." loading="lazy" decoding="async">
+          <figcaption class="figcaption">معاينة مكتبة السياق: ٧٩ اختصارًا للبرومبت في ١٠ تصنيفات. الصورة تلخّص الفهرس، والتفاصيل تبقى في ملف المكتبة.</figcaption>
+        </figure>
+        <div class="support-grid">
+          <figure class="figure">
+            <img src="assets/images/context-library-shortcut-sample.jpg" width="1672" height="941" alt="معاينة لمكتبة السياق تعرض التصنيفات العشرة ومثالًا من اختصارات أسلوب الإجابة." loading="lazy" decoding="async">
+            <figcaption class="figcaption">التصنيفات العشرة، مع مثال من اختصارات أسلوب الإجابة.</figcaption>
+          </figure>
+          <figure class="figure">
+            <img src="assets/images/context-library-shortcut-cards.jpg" width="1672" height="941" alt="تفاصيل اختصارات مكتبة السياق: بطاقات أمثلة ومجلدات للتصنيفات." loading="lazy" decoding="async">
+            <figcaption class="figcaption">بطاقات أمثلة للاختصارات، ومجلدات التصنيفات.</figcaption>
+          </figure>
+        </div>
         <div class="cards resources">
-          <article class="card">
+          <article class="card resource-card">
+            <span class="resource-mark" aria-hidden="true"><svg viewBox="0 0 32 32" focusable="false"><circle cx="16" cy="11" r="4" fill="none" stroke="currentColor" stroke-width="1.75"/><path d="M8.5 24.5c1.4-3.4 4.1-5 7.5-5s6.1 1.6 7.5 5" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg></span>
             <h3><span class="en" lang="en" dir="ltr">Persona Library</span></h3>
             <p>مكتبة شخصيات لتحديد الدور والأسلوب عند كتابة البرومبت، ومعها دليل عرض خاص بالمكتبة داخل مواد الوحدة الثانية.</p>
           </article>
-          <article class="card">
+          <article class="card resource-card">
+            <span class="resource-mark" aria-hidden="true"><svg viewBox="0 0 32 32" focusable="false"><path d="M8 10.5h16M8 16h16M8 21.5h10" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/><rect x="5" y="6" width="22" height="20" rx="3" fill="none" stroke="currentColor" stroke-width="1.75"/></svg></span>
             <h3><span class="en" lang="en" dir="ltr">Context Library</span></h3>
-            <p>مكتبة سياق تتضمن اختصارات البرومبت. في الملفات الحالية، الاختصارات جزء من مكتبة السياق وليست مكتبة ثالثة منفصلة.</p>
+            <p>النسخة الحالية تتضمن <span class="en" lang="en" dir="ltr">79 AI Prompt Shortcuts</span> في 10 تصنيفات. الاختصارات جزء من مكتبة السياق.</p>
           </article>
-          <article class="card">
+          <article class="card resource-card">
+            <span class="resource-mark" aria-hidden="true"><svg viewBox="0 0 32 32" focusable="false"><path d="M8 7.5h11.5A4.5 4.5 0 0 1 24 12v12.5H12.5A4.5 4.5 0 0 0 8 20V7.5z" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/><path d="M8 7.5A4.5 4.5 0 0 1 12.5 12H24" fill="none" stroke="currentColor" stroke-width="1.75"/></svg></span>
             <h3>أدلة الوحدات</h3>
             <p>عروض <span class="en" lang="en" dir="ltr">Blueprint</span> للوحدات، ودليل مكتبة <span class="en" lang="en" dir="ltr">Persona</span>، ومراجع محتوى مرافقة للتطبيق والمراجعة.</p>
           </article>
-          <article class="card">
+          <article class="card resource-card">
+            <span class="resource-mark" aria-hidden="true"><svg viewBox="0 0 32 32" focusable="false"><path d="M8 23.5l2.2-6.2L20.8 6.7a2 2 0 0 1 2.8 0l1.7 1.7a2 2 0 0 1 0 2.8L14.7 21.8 8.5 24z" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/><path d="M18.2 9.2l4.6 4.6" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg></span>
             <h3>تمارين ومشروع ختامي</h3>
             <p>حزمة موارد المستوى الأول تشمل كراسة تمارين، معرضًا لتحسين البرومبت، قالب برومبت، خريطة تعلم، ومشروعًا ختاميًا.</p>
           </article>
-          <article class="card">
+          <article class="card resource-card">
+            <span class="resource-mark" aria-hidden="true"><svg viewBox="0 0 32 32" focusable="false"><rect x="5" y="7" width="22" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.75"/><path d="M12 25h8M16 21v4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg></span>
             <h3><span class="en" lang="en" dir="ltr">RWPST AI Studio</span></h3>
             <p>صفحة المنتج تذكر تطبيقًا عمليًا باستخدام <span class="en" lang="en" dir="ltr">RWPST AI Studio</span>. الأداة الموجودة اليوم تطبيق سطح مكتب لويندوز لاستعراض المكتبات وبناء البرومبت. طريقة تسليمها بعد الدفع تحتاج تأكيدًا.</p>
           </article>
+        </div>
+        <figure class="figure figure-studio">
+          <img src="assets/images/rwpst-ai-studio.png" width="1458" height="969" alt="لقطة شاشة لتطبيق سطح المكتب RWPST AI Studio، وتظهر أقسام المكتبات وبناء البرومبت والمحفوظات والإعدادات." loading="lazy" decoding="async">
+          <figcaption class="figcaption">لقطة من تطبيق سطح المكتب <span class="en" lang="en" dir="ltr">RWPST AI Studio</span> وأقسامه: المكتبات، وبناء البرومبت، والبرومبتات المحفوظة، والمفضلة، والإعدادات. النص داخل الصورة يوضح أن المكتبات تبقى على الجهاز، وأن بناء البرومبت لا يستدعي خدمة ذكاء اصطناعي. عدد الشخصيات الظاهر على الشاشة ما زال قيد المراجعة، وتسليم التطبيق بعد الشراء يحتاج تأكيدًا.</figcaption>
+        </figure>
+        <div class="hero-actions">
+          <a class="btn btn-primary" data-enroll="pricing" data-fallback="#enroll" href="#enroll">اشترك في الكورس</a>
+          <a class="btn btn-secondary" data-enroll="library" data-fallback="#enroll" href="#enroll">اسأل عن مكتبة السياق</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="access">
+      <div class="wrap">
+        <h2>اشتراك واحد، ووصول مدى الحياة</h2>
+        <p class="section-intro">الدفع مرة واحدة. بعده يبقى وصولك إلى ما اشتريته متاحًا، من غير اشتراك شهري.</p>
+        <ul class="policy-list">
+          <li>الشراء دفعة واحدة.</li>
+          <li>وصول مدى الحياة إلى الكورس المشترى.</li>
+          <li>النسخة الحالية من <span class="en" lang="en" dir="ltr">RWPST Context Library</span> مشمولة مع الاشتراك.</li>
+          <li>الدليل العملي المصاحب للكورس متاح مع المحتوى المشترى.</li>
+          <li>تصحيحات الصيانة للمواد المشمولة داخلة في الاشتراك.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="library-updates">
+      <div class="wrap">
+        <h2>تحديثات الأدوات والمكتبة</h2>
+        <div class="policy-panel">
+          <p>تحصل عند الاشتراك على النسخة الحالية من <span class="en" lang="en" dir="ltr">RWPST Context Library</span>.</p>
+          <p>أما الإصدارات الرئيسية الجديدة، ومجموعات الاختصارات الإضافية، والتوسعات المدفوعة المستقبلية، فقد تُتاح بشكل مستقل مقابل رسوم إضافية.</p>
+          <p>ويظل وصولك إلى النسخة التي حصلت عليها عند الشراء محفوظًا.</p>
         </div>
       </div>
     </section>
@@ -252,7 +378,7 @@
     <section class="section" id="audience">
       <div class="wrap">
         <h2>لمن هذا الكورس؟</h2>
-        <p class="section-intro">مناسب لمن يريد بداية مرتبة في <span class="en" lang="en" dir="ltr">Prompt Engineering</span>، ولمن جرّب أدوات الذكاء الاصطناعي ويريد تعليمات أدق. المواد التي رُاجعت لا تحدد شرط خبرة سابقة، لذلك لا نفترض أن الكورس بلا أي متطلبات.</p>
+        <p class="section-intro">مناسب لمن يريد بداية مرتبة في <span class="en" lang="en" dir="ltr">Prompt Engineering</span>، ولمن جرّب أدوات الذكاء الاصطناعي ويريد تعليمات أدق. المسار يبدأ من الأساسيات ويتدرج إلى الاستخدامات المتقدمة.</p>
         <div class="cards audience">
           <article class="card">
             <h3>بداية منظمة</h3>
@@ -318,7 +444,7 @@
             <p class="path-status">متاح الآن</p>
             <h3><span class="en" lang="en" dir="ltr">Prompt Engineering</span></h3>
             <p>نقطة البداية الحالية: كيف تكتب البرومبت، وتضيف السياق، وتراجع مخرجات الذكاء الاصطناعي وتحسّنها.</p>
-            <a class="text-link" data-checkout href="https://edu-rwpst-web1.odoo.com/shop/prompting-like-a-pro-4">اشترك في Prompting Like a Pro</a>
+            <a class="text-link" data-enroll="pricing" data-fallback="#enroll" href="#enroll">اشترك في Prompting Like a Pro</a>
           </article>
           <article class="path-card is-future">
             <p class="badge">قيد التطوير</p>
@@ -334,14 +460,36 @@
       </div>
     </section>
 
-    <section class="section section-alt" id="faq">
+    <section class="section instructor" id="instructor" aria-label="من أنا ولماذا تستمع إليّ؟">
+      <div class="wrap">
+        <img class="instructor-design" src="assets/images/instructor-nagwa-gabr.png" width="1536" height="1024" alt="من أنا ولماذا تستمع إليّ؟ م. نجوى جبر (Nagwa Gabr)، مؤسسة RWPST Software House وشريكة Odoo ومطوّرة منتجات برمجية. البطاقات: خبرة تطوير الأنظمة، وأكثر من 20 شهادة في الذكاء الاصطناعي، وبناء منتجات عملية، والتدريب التطبيقي عبر RWPST AI Academy." decoding="async">
+      </div>
+    </section>
+
+    <section class="section section-alt" id="pricing">
+      <div class="wrap">
+        <h2>سعر الاشتراك</h2>
+        <p class="section-intro">دفعة واحدة مقابل الكورس والموارد المشمولة في هذه النسخة. التسجيل وإتمام الدفع يتمّان عبر واتساب.</p>
+        <div class="price-panel">
+          <p class="price-was">السعر المعتاد <s data-price="regular">999 ج.م</s></p>
+          <p class="price-now"><span data-price="launch">799 ج.م</span> <small>سعر الإطلاق</small></p>
+          <p class="price-save">توفّر <span data-price="savings">200 ج.م</span></p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" data-enroll="pricing" data-fallback="#enroll" href="#enroll">اشترك في الكورس</a>
+          </div>
+          <p class="fine">لم يُحدد موعد لانتهاء سعر الإطلاق.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
       <div class="wrap">
         <h2>أسئلة شائعة</h2>
         <div class="faq-list">
           <details class="faq-item">
             <summary>لمن هذا الكورس؟</summary>
             <div class="faq-panel">
-              <p>لمن يريد مقدمة منظمة في <span class="en" lang="en" dir="ltr">Prompt Engineering</span>، ولمن يستخدم أدوات الذكاء الاصطناعي ويريد طريقة أوضح لكتابة البرومبت ومراجعة الناتج. لا تذكر المواد التي رُاجعت شرط خبرة محددًا، ولا نقول إن الكورس لا يحتاج أي معرفة سابقة.</p>
+              <p>لمن يريد مقدمة منظمة في <span class="en" lang="en" dir="ltr">Prompt Engineering</span>، ولمن يستخدم أدوات الذكاء الاصطناعي ويريد طريقة أوضح لكتابة البرومبت ومراجعة الناتج. المسار يبدأ من الأساسيات ويتدرج بعد ذلك.</p>
             </div>
           </details>
           <details class="faq-item">
@@ -359,19 +507,49 @@
           <details class="faq-item">
             <summary>كيف أشتري الكورس؟</summary>
             <div class="faq-panel">
-              <p>من زر «اشترك في الكورس». تنتقل إلى صفحة المنتج على منصة الأكاديمية لإتمام الطلب والدفع. هذه الصفحة لا تجمع بيانات البطاقة ولا تنفّذ عملية دفع. وسائل الدفع تظهر في صفحة الشراء، ولم نُثبتها هنا.</p>
+              <p>من زر «اشترك في الكورس». يفتح واتساب برسالة جاهزة لإتمام التسجيل ومعرفة خطوات الدفع. هذه الصفحة لا تجمع بيانات البطاقة ولا تنفّذ عملية دفع.</p>
             </div>
           </details>
           <details class="faq-item">
             <summary>كيف أصل إلى الكورس بعد الشراء؟</summary>
             <div class="faq-panel">
-              <p>معالجة الطلب تتم عبر منصة الأكاديمية. مسار فتح المحتوى بعد الدفع لم يُختبر ضمن هذا المشروع، لذلك لا نحدد هنا مدة الوصول أو خطوات الدخول. راجع صفحة المنتج أو الأكاديمية إذا كانت طريقة الوصول حاسمة قبل الشراء.</p>
+              <p>بعد إتمام التسجيل تحصل على وصول مدى الحياة إلى الكورس والموارد المشمولة في نسختك. خطوات استلام المواد تُوضَّح أثناء التواصل عبر واتساب.</p>
             </div>
           </details>
           <details class="faq-item">
             <summary>ماذا عن الشهادة والاسترداد ومدة الوصول؟</summary>
             <div class="faq-panel">
-              <p>مدة الوصول، وسياسة الاسترداد، والشهادة غير مذكورة في المواد التي رُاجعت. هذه التفاصيل تحتاج تأكيدًا من صفحة المنتج أو من الأكاديمية قبل الإطلاق، ولا نعرض لها حكمًا هنا.</p>
+              <p>مدة الوصول إلى المحتوى المشترى مدى الحياة. الشهادة وسياسة الاسترداد غير مذكورتين هنا، وتحتاجان تأكيدًا من الأكاديمية.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>هل أدفع اشتراكًا شهريًا؟</summary>
+            <div class="faq-panel">
+              <p>لا. تدفع مرة واحدة وتحصل على وصول مدى الحياة إلى محتوى الكورس والموارد المشمولة في نسختك.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>هل أحصل على <span class="en" lang="en" dir="ltr">Context Library</span> مع الكورس؟</summary>
+            <div class="faq-panel">
+              <p>نعم. تحصل على النسخة الحالية التي تتضمن <span class="en" lang="en" dir="ltr">79 AI Prompt Shortcuts</span> موزعة على <span class="en" lang="en" dir="ltr">10 Categories</span>.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>هل التحديثات المستقبلية مجانية؟</summary>
+            <div class="faq-panel">
+              <p>التحديثات التصحيحية والصيانة مشمولة. أما الإصدارات الرئيسية الجديدة والتوسعات المدفوعة لمكتبة <span class="en" lang="en" dir="ltr">Context Library</span> فقد تُتاح بشكل مستقل.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>هل أحتاج إلى خبرة سابقة؟</summary>
+            <div class="faq-panel">
+              <p>يبدأ الكورس من أساسيات <span class="en" lang="en" dir="ltr">Prompt Engineering</span> ويتدرج إلى الاستخدامات والتطبيقات المتقدمة.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>كيف أشترك؟</summary>
+            <div class="faq-panel">
+              <p>يمكنك التواصل مع فريق <span class="en" lang="en" dir="ltr">RWPST AI Academy</span> عبر واتساب لإتمام التسجيل ومعرفة خطوات الدفع.</p>
             </div>
           </details>
         </div>
@@ -382,10 +560,16 @@
       <div class="wrap">
         <h2>ابدأ بتعلّم البرومبت بطريقة مرتبة</h2>
         <p class="section-intro">إذا كنت تريد أن تنتقل من الطلبات العشوائية إلى تعليمات أوضح، ومراجعة أفضل للناتج، فهذا الكورس هو نقطة البداية المتاحة الآن في الأكاديمية.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" data-checkout href="https://edu-rwpst-web1.odoo.com/shop/prompting-like-a-pro-4">اشترك في الكورس</a>
+        <div class="price-row price-row-center">
+          <p class="price-was">السعر المعتاد <s data-price="regular">999 ج.م</s></p>
+          <p class="price-now"><span data-price="launch">799 ج.م</span> <small>سعر الإطلاق</small></p>
+          <p class="price-save">توفّر <span data-price="savings">200 ج.م</span></p>
         </div>
-        <p class="fine">الاشتراك والدفع يتمّان من صفحة المنتج. هذه الصفحة لا تعالج الدفع.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" data-enroll="pricing" data-fallback="#enroll" href="#enroll">اشترك في الكورس</a>
+        </div>
+        <p class="fine">التسجيل والدفع يتمّان عبر واتساب. هذه الصفحة لا تعالج الدفع.</p>
+        <p class="fine enroll-pending" data-enroll-pending>رابط واتساب غير مفعّل على هذه الصفحة إلى أن يُضاف رقم واتساب الأعمال.</p>
       </div>
     </section>
   </main>
@@ -393,7 +577,7 @@
   <footer class="site-footer">
     <div class="wrap footer-inner">
       <p>RWPST AI Academy — <span class="en" lang="en" dir="ltr">Prompting Like a Pro</span></p>
-      <p><a data-checkout href="https://edu-rwpst-web1.odoo.com/shop/prompting-like-a-pro-4">صفحة شراء الكورس</a></p>
+      <p><a data-enroll="pricing" data-fallback="#pricing" href="#enroll">التسجيل عبر واتساب</a></p>
       <p>© 2026 RWPST AI Academy</p>
     </div>
   </footer>
